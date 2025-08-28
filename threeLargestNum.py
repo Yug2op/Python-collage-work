@@ -1,7 +1,7 @@
 list = [50, 20, 30, 10, 40, 70, 60]
 # 1st way
 list.sort()
-print("Three largest numbers are:", list[-3:])
+print("Three largest numbers are:", list[-1 : -4 : -1])
 
 # 2nd way
 fmsf = float('-inf')
