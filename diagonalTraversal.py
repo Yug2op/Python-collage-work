@@ -8,7 +8,7 @@ def print_diagonal(nums,m,n,i,j):
 
 nums = [[1,2,3,4],
         [5,6,7,8],
-        [9,10,11,1]]
+        [9,10,11,12]]
 m = len(nums)
 n = len(nums[0])
 # starting point of form (0,0), (0,1), (0,2), (0,3)... => (0,j) where 0<=j<=n-1
