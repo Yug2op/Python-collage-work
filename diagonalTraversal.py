@@ -16,7 +16,7 @@ n = len(nums[0])
 for j in range(n):
     print_diagonal(nums,m,n,0,j)
 
-# starting point of form (1,0), (2,0), (3,0)... => (i,0) where 0<=i<=n-1
+# starting point of form (1,0), (2,0), (3,0)... => (i,0) where 1<=i<=m-1
 
 for i in range(1,m):
     print_diagonal(nums,m,n,i,0)
