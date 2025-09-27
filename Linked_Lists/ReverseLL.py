@@ -19,6 +19,7 @@ def reverse_LL(head):
         cur = temp
     return prev
         
+head = None
 head = Node(10)
 head.next = Node(20)
 head.next.next = Node(30)
